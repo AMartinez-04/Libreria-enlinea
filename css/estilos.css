@@ -13,6 +13,15 @@ body {
     color: #333;
 }
 
+body {
+    background-image: url('http://libreriaanfeernymartinez.infinityfreeapp.com/htdocs/imagenes/fondo.jpg'); /* Ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen al fondo */
+    background-position: center; /* Centra la imagen */
+}
+
+
 /* Estilos de la barra de navegación */
 .navbar {
     background-color: #010911;

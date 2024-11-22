@@ -32,7 +32,7 @@ try {
                         <div class="card">
                             <!-- Con esto ponemos una imagen fija para todos los autores -->
                             <img 
-                                src="imagenes/autores/default_autor.PNG" 
+                                src="imagenes/autores/default_autor.png" 
                                 class="card-img-top" 
                                 alt="Autor">
                             <div class="card-body">
@@ -45,7 +45,7 @@ try {
                                             : 'País no disponible'; 
                                     ?>
                                 </p>
-                                <a href="detalle_autor.php?id=<?php echo htmlspecialchars($autor['id_autor']); ?>" class="btn btn-primary">Ver detalles</a>
+                                <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" class="btn btn-primary" target="_blank">Ver detalles</a>
                             </div>
                         </div>
                     </div>
